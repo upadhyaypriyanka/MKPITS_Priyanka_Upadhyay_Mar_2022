@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prime number</title>
+</head>
+
+<body>
+    <form name="f1">
+    Enter number: <input type="text" name="t1" id="n"><br>
+    <input type="button" value="click" id="" onclick="display()"><br><br>
+    <span id="res"></span>
+</form>
+    <script>
+        // let num;
+        function display() {
+            let p=pri();
+           
+            if (p == 2) {
+                // alert("prime number");
+                document.getElementById("res").innerText =(" Prime number");
+            }
+            else {
+                // alert("not a prime number");
+                document.getElementById("res").innerText =(" not a Prime number");
+            }
+        }
+        function pri(){
+           let n= document.f1.t1.value;
+            let num = 0;
+           
+           for (i = 1; i <= n; i++) {
+               if (n % i == 0) {
+                   num = num + 1;
+               }
+           }
+           return num;
+
+        }
+    </script>
+</body>
+
+</html>
