@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee id,name,salary</title>
+</head>
+<body>
+    <label for="i1">Enter Employee Id</label>
+    <div>
+        <input type="text" name="" id="i1">
+    </div><br>
+    <label for="i2">Enter Employee Name</label>
+    <div>
+        <input type="text" name="" id="i2">
+    </div><br>
+    <label for="i3">Enter Employee Salary</label>
+    <div>
+        <input type="text" name="" id="i3">
+    </div><br><br>
+    <input type="button" value="click" id="" onclick="display()"><br><br>
+    Employee id is: <span id="o1"> </span><br><br>
+    Employee name is: <span id="o2"> </span><br><br>
+    Employee salary is: <span id="o3"> </span><br><br>
+
+    <script>
+function display(){
+    
+    let i=document.getElementById("i1").value;
+    let j=document.getElementById("i2").value;
+    let k=document.getElementById("i3").value;
+// alert("id is"+i);
+// alert("name is "+j);
+   emp={id:i,name:j,salary:k};
+//    alert(emp.id);
+//    alert(emp.name);
+    document.getElementById("o1").innerText=emp.id;
+    document.getElementById("o2").innerText=emp.name;
+    document.getElementById("o3").innerText=emp.salary;
+}
+
+    </script>
+</body>
+</html>
