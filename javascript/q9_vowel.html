@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vowels</title>
+</head>
+
+<body>
+    <label for="cha">Enter vowel(a,e,i,o,u)</label>
+    <div>
+        <input type="text" name="" id="cha">
+    </div><br>
+    <input type="button" value="click" id="" onclick="vowel()"><br><br>
+    <span id="res"></span>
+
+    <script>
+        function vowel() {
+            let c = document.getElementById("cha").value;
+            let result;
+            switch (c) {
+                case 'a':
+                  result= 'a';
+                    break;
+                case 'e':
+                result= 'e';
+                    break;
+                case 'i':
+                result= 'i';
+                    break;
+                case 'o':
+                result= 'o';
+                    break;
+                case 'u':
+                result= 'u';
+                    break;
+                default:
+               alert("It is not a vowel"); 
+  }
+  document.getElementById("res").innerText= result +" is vowel";
+        }
+
+    </script>
+</body>
+
+</html>
