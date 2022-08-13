@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minor,adult,old</title>
+</head>
+<body>
+    <form name="f">
+    <label for="age">Enter age</label>
+    <div>
+        <input type="text" name="t" id="age">
+    </div>
+    <br>
+    <input type="button" value="click" id="" onclick="dis(document.f.t.value)">
+    <br>
+    <span id="res"></span>
+</form>
+    <script>
+function dis(n)
+{
+
+    let age=n;
+
+    if(age>=3 && age<=17)
+    {
+        document.getElementById("res").innerText="minor";
+    }
+    else if(age>=18 && age<=59)
+    {
+        document.getElementById("res").innerText="adult";
+    }
+    else if(age>=60 )
+    {
+        document.getElementById("res").innerText="old";
+    }
+}
+    </script>
+</body>
+</html>
