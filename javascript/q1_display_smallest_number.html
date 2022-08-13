@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> display Smallest number</title>
+</head>
+
+<body>
+<div>
+
+        <form action="">
+            <label for="number1">Enter first number</label>
+            <div>
+                <input type="text" class="" id="number1">
+            </div><br>
+            <label for="number2">Enter second number</label>
+            <div>
+                <input type="text" class="" id="number2">
+            </div>
+            <br>
+            <!-- <label for="">smallest number</label> -->
+            <div>
+                <input type="button" value="click" onclick="smallest()">
+            </div>
+            <span id="res"></span>
+
+
+        </form>
+    </div>
+    <script>
+        function smallest() {
+
+            let num1 = parseInt(document.getElementById("number1").value);
+            let num2 = parseInt(document.getElementById("number2").value);
+            if (num1 < num2) {
+                let a = document.getElementById("res").innerText = "smallest number is = " + num1;
+            }
+            else {
+                let b = document.getElementById("res").innerText = "smallest number is = " + num2;
+            }
+        }
+
+    </script>
+</body>
+
+</html>
