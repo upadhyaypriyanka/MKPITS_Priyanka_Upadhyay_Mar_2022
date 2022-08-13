@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee name salary designation</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="name">Enter employee name</label>
+        <div>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <label for="salary">Enter salary</label>
+        <div>
+            <input type="text" id="salary">
+        </div>
+        <br>
+        <label for="bonus">bonus</label>
+        <div>
+            <input type="text" id="bonus">
+        </div>
+        <br>
+        <input type="button" value="click" id="" onclick="detail()"><br><br>
+        <!-- <span id="desi"></span> -->
+        designation: <span id="res"></span>
+    </form>
+    <script>
+        function detail() {
+            let name = parseInt(document.getElementById("name").value);
+            let salary = parseInt(document.getElementById("salary").value);
+            let bonus = parseInt(document.getElementById("bonus").value);
+            if (bonus == 5000) {
+                document.getElementById("res").innerText = "manager";
+            }
+            else if (bonus == 2000) {
+                document.getElementById("res").innerText = "clerk";
+            }
+            else if (bonus == 1000) {
+                document.getElementById("res").innerText = "peon";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
