@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Choose number from 1 to 7</label>
+    <div>
+<input type="text" id="num" >
+    </div>
+    <br>
+    <input type="button" value="click" id="" onclick="WeekName()">
+    <br><br>
+    today is <span id="res"></span>
+    <script>
+function WeekName()
+{   let result;
+    let number=parseInt(document.getElementById("num").value);
+    switch(number){
+        case 1:
+            result="Monday";
+            break;
+        case 2:
+            result="Tuesday";
+            break;
+        case 3:
+            result="Wednesday";
+            break;
+        case 4:
+            result="Thusday";
+            break;
+        case 5:
+            result="Friday";
+            break;
+        case 6:
+            result="Saturday";
+            break;
+        case 7:
+            result="Sunday";
+            break;
+        default:
+            result="Invalid number";
+            break;
+
+    }
+    document.getElementById("res").innerText=result;
+}
+    </script>
+</body>
+</html>
