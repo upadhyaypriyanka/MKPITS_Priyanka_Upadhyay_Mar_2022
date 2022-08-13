@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Greatest number</title>
+</head>
+
+<body>
+    <label for="num1">Enter first number</label>
+    <div>
+        <input type="text" id="num1">
+    </div>
+    <br>
+    <label for="num2">Enter second number</label>
+    <div>
+        <input type="text" id="num2">
+    </div>
+    <br>
+    <label for="num3">Enter third number</label>
+    <div>
+        <input type="text" id="num3">
+    </div>
+    <br>
+    <input type="button" value="click" onclick="greater()">
+    <br>
+    <div id="res">greatest number is</div>
+    <script>
+        function greater() {
+            let n1 = parseInt(document.getElementById("num1").value);
+            let n2 = parseInt(document.getElementById("num2").value);
+            let n3 = parseInt(document.getElementById("num3").value);
+            if (n1 > n2 && n1 > n3) {
+                let a = document.getElementById("res").innerText = " greatest number is=" + n1;
+            }
+            else if (n2 > n1 && n2 > n3) {
+                let b = document.getElementById("res").innerText = " greatest number is=" + n2;
+            }
+            else {
+                let c = document.getElementById("res").innerText = " greatest number is=" + n3;
+            }
+
+        }
+
+
+    </script>
+</body>
+
+</html>
