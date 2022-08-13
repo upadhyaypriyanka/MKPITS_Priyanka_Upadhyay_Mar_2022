@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factorial</title>
+</head>
+<body>
+    <form action="">
+    <fieldset style="width: 30%;  ">
+        <legend>calculation</legend>
+        <label for="num">Enter number</label>
+        <div>
+
+        <input type="text" id="num">
+        </div><br>
+        <input type="button" value="click" id="" onclick="factorial()"><br><br>
+        <span id="res"></span>
+
+
+    </fieldset>
+</form>
+    <script>
+        function factorial()
+        {
+            let fact=1;
+            let i=1;
+            let num=parseInt(document.getElementById("num").value);
+            while(i<=num){
+                fact=fact*i;
+                i++;
+            }
+            document.getElementById("res").innerText=(" Factorial of "+ num +" is ="+" "+fact);
+        }
+
+    </script>
+</body>
+</html>
