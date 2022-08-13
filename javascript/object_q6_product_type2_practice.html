@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product id,name,price</title>
+</head>
+
+<body>
+    <form name="f">
+        <label for="i1">Enter product Id</label>
+        <div>
+            <input type="text" name="" id="i1">
+        </div><br>
+        <label for="i2">Enter product Name</label>
+        <div>
+            <input type="text" name="" id="i2">
+        </div><br>
+        <label for="i3">Enter product price</label>
+        <div>
+            <input type="text" name="" id="i3">
+        </div>
+    </form>
+    <br><br>
+    <input type="button" value="click" id=""
+        onclick="display(document.f.i1.value,document.f.i2.value,document.f.i3.value)"><br><br>
+    product id is: <span id="o1"> </span><br><br>
+    product name is: <span id="o2"> </span><br><br>
+    product price is: <span id="o3"> </span><br><br>
+
+    <script>
+        function display(p1, p2, p3) {
+            let product = new Object();
+            product.id = p1;
+            product.name = p2;
+            product.price = p3;
+            // alert("id is"+i);
+            // alert("name is "+j);
+            //    emp={id:i,name:j,price:k};
+            //    alert(emp.id);
+            //    alert(emp.name);
+            document.getElementById("o1").innerText = product.id;
+            document.getElementById("o2").innerText = product.name;
+            document.getElementById("o3").innerText = product.price;
+        }
+    </script>
+
+</body>
+
+</html>
