@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee id,name,salary</title>
+</head>
+<body>
+    <form >
+       
+        <div>
+            <input type="button" value="click" id="" onclick="display()"><br><br>
+ Employee id: <span id="s1"></span><br><br>
+ Employee name: <span id="s2"></span><br><br>
+ Employee salary: <span id="s3"></span> <br><br>
+        </div>
+    </form>
+    <script>
+function display(){
+    emp={id:121,name:"priyanka",salary:45000};
+    // alert("employee id = "+emp.id )
+    // alert("employee salary = "+emp.name);
+    document.getElementById("s1").innerText=emp.id;
+    document.getElementById("s2").innerText=emp.name;
+    document.getElementById("s3").innerText=emp.salary;
+}
+    </script>
+</body>
+</html>
