@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Employee_name_salary_designation</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Enter employee name</label>
+        <div>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <label for="salary">Enter salary</label>
+        <div>
+            <input type="text" id="salary">
+        </div>
+        <br>
+        <label for="cha">chose designation</label>
+        <div>
+            <input type="text" id="cha">
+        </div>
+        <br>
+        <input type="button" value="click" id="" onclick="detail()"><br><br>
+        
+        designation: <span id="res"></span>
+    </form>
+    <script>
+        function detail() {
+            let name = parseInt(document.getElementById("name").value);
+            let salary = parseInt(document.getElementById("salary").value);
+            let cha = document.getElementById("cha").value;
+            switch(cha){
+                case 'm':
+                document.getElementById("res").innerText = (" manager"+" = bonus for manager 5000");
+                break;
+                case 'c':
+                document.getElementById("res").innerText = (" clark"+" = bonus for clerk 2000");
+                break;
+                case 'p':
+                document.getElementById("res").innerText = (" peon"+" = bonus for peon 1000");
+                break;
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
