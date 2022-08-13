@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add,sub,div,mul</title>
+</head>
+<body>
+    
+    <label for="n1">Enter the value of x</label>
+    <div>
+        <input type="text" name="" id="n1">
+    </div><br>
+    <label for="n2">Enter the value of y</label>
+    <div>
+        <input type="text" name="" id="n2">
+    </div><br>
+    <label for="ope">chose any one operator(+,-,*,/)</label>
+    <div>
+        <input type="text" name="" id="ope">
+    </div><br>
+    <input type="button" value="click" id="" onclick="arith()"><br><br>
+    <span id="res"></span>
+
+    <script>
+function arith()
+{  
+    let x=parseInt(document.getElementById("n1").value);
+    let y=parseInt(document.getElementById("n2").value);
+    let operator=document.getElementById("ope").value;
+    let result;
+
+    switch(operator)
+    {
+        case '+':
+        result =x+y;
+        break;
+        case '-':
+        result =x-y;
+        break;
+        case '*':
+        result =x*y;
+        break;
+        case '/':
+        result =x/y;
+        break;
+        default:
+            result=("Invalid operator");
+
+    }
+    document.getElementById("res").innerText=result;
+}
+    </script>
+</body>
+</html>
