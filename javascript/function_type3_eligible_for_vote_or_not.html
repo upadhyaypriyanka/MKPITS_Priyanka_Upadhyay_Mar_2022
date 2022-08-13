@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligible to vote or not</title>
+</head>
+
+<body>
+    <form name="f1">
+        <label for="naam">Enter age</label>
+        <div>
+            <input type="text" name="t1" id="naam">
+        </div>
+        <br>
+        <input type="button" value="click" id="" onclick="vote(document.f1.t1.value)"><br><br>
+        <span id="res"></span>
+    </form>
+
+    <script>
+        function vote(n) {
+            age1 = display(n);
+            //   alert("age= "+age);
+            if (age1 >= 18) {
+                document.getElementById("res").innerText = "You are eligible for vote";
+            }
+            else {
+                document.getElementById("res").innerText = "You are not eligible for vote";
+            }
+
+        }
+        function display(n1) {
+            let age = n1;
+            return age;
+        }
+
+    </script>
+</body>
+
+</html>
