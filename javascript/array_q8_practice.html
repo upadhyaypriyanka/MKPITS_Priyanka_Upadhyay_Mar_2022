@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+
+<body>
+    <form name="f">
+    <label for="m1">Enter employee first name</label>
+    <div>
+        <input type="text" name="m1" id="">
+    </div><br>
+    <label for="m2">Enter employee last name</label>
+    <div>
+        <input type="text" name="m2" id="">
+    </div><br>
+    <label for="m3">Enter employee Id</label>
+    <div>
+        <input type="text" name="m3" id="">
+    </div><br>
+    <label for="m4">Enter employee designation</label>
+    <div>
+        <input type="text" name="m4" id="">
+       
+    </div><br>
+</form>
+    <input type="button" value="click" id=""
+    onclick="display(document.f.m1.value,document.f.m2.value,document.f.m3.value,document.f.m4.value);"><br><br>
+    first name: <span id="fname"></span><br><br>
+    last name: <span id="lname"></span><br><br>
+    Id: <span id="i"></span><br><br>
+    Designation: <span id="desi"></span>
+    <script>
+        function display(a1, a2, a3, a4) {
+            let arr = new Array();
+            arr[0] = a1;
+            arr[1] = a2;
+            arr[2] = a3;
+            arr[3] = a4;
+            document.getElementById("fname").innerText=arr[0];
+            document.getElementById("lname").innerText=arr[1];
+            document.getElementById("i").innerText=arr[2];
+            document.getElementById("desi").innerText=arr[3];
+        }
+
+    </script>
+</body>
+
+</html>
