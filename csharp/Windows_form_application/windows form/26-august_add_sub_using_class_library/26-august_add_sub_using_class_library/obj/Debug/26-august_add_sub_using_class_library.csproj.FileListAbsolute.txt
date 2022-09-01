@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\bin\Debug\26-august_add_sub_using_class_library.exe.config
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\bin\Debug\26-august_add_sub_using_class_library.exe
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\bin\Debug\26-august_add_sub_using_class_library.pdb
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\bin\Debug\calculatelibrary.dll
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\bin\Debug\calculatelibrary.pdb
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\26-august_add_sub_using_class_library.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\26-august_add_sub_using_class_library.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\_26_august_add_sub_using_class_library.Form1.resources
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\_26_august_add_sub_using_class_library.Properties.Resources.resources
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\26-august_add_sub_using_class_library.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\26-august_add_sub_using_class_library.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\26-august_add_sub_using_class_library.csproj.CopyComplete
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\26-august_add_sub_using_class_library.exe
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_add_sub_using_class_library\26-august_add_sub_using_class_library\obj\Debug\26-august_add_sub_using_class_library.pdb
