@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\bin\Debug\26-august_bank_windows.exe.config
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\bin\Debug\26-august_bank_windows.exe
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\bin\Debug\26-august_bank_windows.pdb
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\bin\Debug\26-august_bank.dll
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\bin\Debug\26-august_bank.pdb
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\26-august_bank_windows.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\26-august_bank_windows.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\_26_august_bank_windows.Form1.resources
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\_26_august_bank_windows.Properties.Resources.resources
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\26-august_bank_windows.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\26-august_bank_windows.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\26-august_bank_windows.csproj.CopyComplete
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\26-august_bank_windows.exe
+C:\Users\HP\Desktop\windows_form_and_dll\windows form\26-august_bank_windows\26-august_bank_windows\obj\Debug\26-august_bank_windows.pdb
